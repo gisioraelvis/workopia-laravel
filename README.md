@@ -86,6 +86,40 @@ php artisan serve
 
 Open http://localhost:8000
 
+## Docker Setup
+
+### Build Docker Images
+
+To build the Docker images for the Laravel application, PostgreSQL, and Redis, run the following command:
+
+```
+docker-compose build
+```
+
+### Run Docker Containers
+
+To start the Docker containers, run the following command:
+
+```
+docker-compose up -d
+```
+
+### Stop Docker Containers
+
+To stop the Docker containers, run the following command:
+
+```
+docker-compose down
+```
+
+### Accessing the Application
+
+Once the Docker containers are up and running, you can access the Laravel application at:
+
+```
+http://localhost:8000
+```
+
 ## License
 
 Workopia has an open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
